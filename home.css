@@ -1,0 +1,724 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Cocogoose Pro-trial';
+  src: url('./fonts/Cocogoose\ Pro-trial.ttf');
+}
+
+.top-strip {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background: white;
+  margin-top: -620px;
+  opacity: 80%;
+}
+
+.main-paragraph {
+  background-color: rgb(218, 216, 216);
+  margin-top: 170px;
+  width: 95%;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.background-img {
+  background-image: url(./images/Background-img-1.jpg);
+  width: 100%;
+  margin-top: 0;
+  height: 600px;
+}
+
+.introduction {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 30px;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+/* Navigation and Hamburger menu */
+
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.logo {
+  width: 90%;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.my_logo {
+  width: 10%;
+  height: 40px;
+  opacity: 70%;
+  border-radius: 5%;
+}
+
+header .logo {
+  margin-top: -600px;
+  margin-left: 20px;
+}
+
+.top-bar {
+  display: flex;
+  width: 70%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -105px;
+  margin-left: 300px;
+  z-index: 10;
+  gap: 5px;
+}
+
+.cc-compaign {
+  height: 30px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: solid red 4px;
+  padding: 5px;
+}
+
+.cc_link {
+  color: red;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 70%;
+}
+
+.nav_link {
+  transition: 0.7s ease;
+  color: #344563;
+  font-size: 20px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav_bar {
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.topic2 {
+  color: #ec4327;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.topic {
+  font-size: 20px;
+  font-weight: 200;
+  color: #ec4327;
+  margin-top: -10px;
+}
+
+.date {
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 0px;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 0px;
+  color: black;
+}
+
+.background-img2 {
+  height: 950px;
+  height: 622px;
+  background: hsl(222, 11%, 18%);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: 20%;
+  height: 82.06px;
+  background: #3b3e45;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.card-img-top {
+  width: 57.08px;
+  height: 51.73px;
+  margin-left: 5px;
+}
+
+.background-img4 {
+  width: 100%;
+  height: 450px;
+  height: 242px;
+  left: 0;
+  background: #414246;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-logos {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80px;
+  width: 100%;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.partner-logo {
+  width: 60px;
+  height: 60px;
+  opacity: 70%;
+  border-radius: 20%;
+}
+
+.partner {
+  width: 76px;
+  height: 34px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.partners {
+  width: 100%;
+  height: 5px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -80px;
+  margin-bottom: 40px;
+}
+
+.bottom-line3 {
+  width: 40px;
+  height: 2px;
+}
+
+.background-img5 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+
+
+/* Bootstrap */
+.main-sports {
+  width: 95%;
+  height: 90px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.04em;
+  margin-left: 13px;
+  color: #fff;
+  margin-top: -630px;
+}
+
+.sports-name {
+  width: 70px;
+  height: 41.92px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.2712px;
+  line-height: 25px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ff5438;
+}
+
+.button1 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .button2 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 68px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border: none;
+    color: white;
+    background: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .top {
+    background-color: #3e3e3e;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .twitter {
+    width: 70%;
+    height: 18px;
+  }
+
+  .main-sports2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .background-img3 {
+    width: 100%;
+    height: 950px;
+    margin-top: 160px;
+    margin-top: 0.1px;
+    background: white;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 60px;
+    border: none;
+  }
+
+  .card {
+    height: 270px;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 100%;
+  }
+
+  .speaker-position {
+    width: 95%;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: #f78c89;
+  }
+
+  .speaker-name {
+    width: 98%;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+  }
+
+  .sports-name {
+    width: 140px;
+    height: 41.92px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14.2712px;
+    line-height: 25px;
+    margin-left: 15px;
+    letter-spacing: -0.01em;
+    color: #ff5438;
+  }
+
+  .card-img-top2 {
+    width: 130px;
+    height: 120px;
+    z-index: 2;
+    margin-top: 10px;
+  }
+
+  .overlap-img-top {
+    position: absolute;
+    width: 5%;
+    margin-top: -5px;
+    margin-left: -15px;
+    opacity: 90%;
+  }
+
+  .speaker-description {
+    width: 100%;
+    max-width: 200px;
+    height: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 14px;
+    color: #000;
+    margin-top: -10px;
+    text-align: justify;
+  }
+
+  .name-1 {
+    margin-left: 15px;
+  }
+
+  .name-2,
+  .name-3 {
+    margin-left: 30px;
+  }
+
+  .card-text {
+    width: 80%;
+    height: 82.06px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.7034px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    margin-left: 20px;
+    text-align: justify;
+    color: #fff;
+  }
+
+  .speaker {
+    display: inline-flex;
+    flex-direction: row;
+    height: 210px;
+    width: 35%;
+    margin-left: 70px;
+    gap: 15px;
+    margin-top: 85px;
+  }
+}
+
+
+/* Mobile Size */
+@media screen and (max-width: 768px) {
+  .top {
+    display: none;
+  }
+
+  .main-paragraph {
+    margin-top: 130px;
+    width: 95%;
+  }
+
+  .card-text {
+    width: 80%;
+    height: 82.06px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.7034px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    margin-left: 55px;
+    color: #fff;
+  }
+
+  .cards {
+    width: 470%;
+  }
+
+  .main-sports2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button1 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 110px;
+    background: #ff4f38;
+    color: white;
+    width: 60%;
+    height: 68px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .background-img3 {
+    width: 100%;
+    height: 950px;
+    margin-top: 160px;
+    margin-top: 0.1px;
+    background: white;
+  }
+
+  .button2 {
+    display: none;
+  }
+
+  .introduction {
+    width: 95%;
+    text-align: justify;
+    padding-left: 20px;
+    margin-top: -640px;
+    margin-left: -1px;
+  }
+
+  .topic2 {
+    color: #ec4327;
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  .topic {
+    font-size: 20px;
+    font-weight: 200;
+    color: #ec4327;
+    padding-top: 40px;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-top: -1250px;
+    z-index: 12;
+  }
+
+  .nav_link {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: -25px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .nav_link:hover {
+    color: white;
+  }
+
+  .hamburger.active .nav_bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .nav_bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+    background-color: white;
+  }
+
+  .hamburger.active .nav_bar:nth-child(3) {
+    transform: translateY(-10px) rotate(135deg);
+    background-color: white;
+  }
+
+  .logo,
+  .cc-compaign {
+    display: none;
+  }
+
+  .nav_menu {
+    position: fixed;
+    display: flex;
+    list-style: none;
+    right: -100%;
+    top: -15px;
+    margin-right: -40px;
+    gap: 30px;
+    flex-direction: column;
+    background-color: rgb(47, 44, 44);
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    transition: 0.3s;
+    height: 600px;
+    opacity: 95%;
+    padding-top: 100px;
+    z-index: 5;
+  }
+
+  .nav_menu.active {
+    right: 0;
+  }
+
+  .card-img-top2 {
+    width: 130px;
+    height: 120px;
+    z-index: 2;
+    margin-top: 10px;
+  }
+
+  .overlap-img-top {
+    position: absolute;
+    width: 15%;
+    margin-top: -5px;
+    margin-left: -15px;
+    opacity: 90%;
+  }
+
+  .speaker-name {
+    width: 98%;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+  }
+
+  .speaker-position {
+    width: 95%;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: #f78c89;
+  }
+
+  .speaker-description {
+    width: 90%;
+    height: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 14px;
+    color: #000;
+    margin-top: -10px;
+    text-align: justify;
+  }
+
+  .logo2 {
+    width: 30%;
+    height: 70px;
+    opacity: 70%;
+  }
+
+  .rights {
+    width: 158px;
+    height: 24px;
+    color: #3b3e45;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -20px;
+  }
+
+  .partner {
+    width: 76px;
+    height: 34px;
+    margin-left: 0;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    margin-top: -70px;
+    margin-bottom: -5px;
+  }
+}
