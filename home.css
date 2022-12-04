@@ -181,6 +181,7 @@ header .logo {
   height: 950px;
   height: 622px;
   background: hsl(222, 11%, 18%);
+  margin-top: -5px;
 }
 
 .card {
@@ -491,13 +492,17 @@ header .logo {
     display: none;
   }
 
+  .name-4 {
+    margin-top: 8px;
+  }
+
   .main-paragraph {
     margin-top: 130px;
     width: 95%;
   }
 
   .card-text {
-    width: 80%;
+    width: 75%;
     height: 82.06px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -527,6 +532,7 @@ header .logo {
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+    margin-bottom: 8px;
     margin-left: 110px;
     background: #ff4f38;
     color: white;
