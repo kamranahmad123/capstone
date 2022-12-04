@@ -268,8 +268,6 @@ header .logo {
   background-color: white;
 }
 
-
-
 /* Bootstrap */
 .main-sports {
   width: 95%;
@@ -486,7 +484,6 @@ header .logo {
     margin-top: 85px;
   }
 }
-
 
 /* Mobile Size */
 @media screen and (max-width: 768px) {

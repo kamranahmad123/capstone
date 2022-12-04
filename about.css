@@ -20,7 +20,6 @@ body {
   opacity: 80%;
 }
 
-
 /* Logo section */
 
 #background-img10 {
@@ -88,11 +87,7 @@ body {
   gap: -15px;
 }
 
-
-
-
 /* Navigation and Hamburger menu */
-
 a,
 li {
   list-style: none;
@@ -385,8 +380,6 @@ header .logo {
   margin-left: 190px;
   height: 3px;
 }
-
-
 
 /* Mobile Size */
 @media screen and (max-width: 768px) {
