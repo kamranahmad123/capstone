@@ -152,12 +152,12 @@ header .logo {
 .topic2 {
   color: #ec4327;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .topic {
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 400;
   color: #ec4327;
   margin-top: -10px;
 }
@@ -220,7 +220,7 @@ header .logo {
   flex-direction: row;
   justify-content: space-around;
   height: 80px;
-  width: 100%;
+  width: 40%;
   margin-top: 80px;
   position: absolute;
 }
@@ -490,6 +490,10 @@ header .logo {
 @media screen and (max-width: 768px) {
   .top {
     display: none;
+  }
+
+  .partner-logos {
+    width: 70%;
   }
 
   .name-4 {

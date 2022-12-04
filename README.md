@@ -118,6 +118,7 @@ Feel free to check the [issues page](https://github.com/kamranahmad123/first-cap
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+> I would like to thank Mr.Cindy shin the author of original design.
 > I would like to thank [Microverseinc](https://github.com/microverseinc).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

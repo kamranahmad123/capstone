@@ -11,6 +11,13 @@ body {
   src: url('./fonts/Cocogoose\ Pro-trial.ttf');
 }
 
+.logo2 {
+  width: 30%;
+  height: 70px;
+  opacity: 60%;
+  border-radius: 20%;
+}
+
 .top-strip {
   position: absolute;
   width: 100%;
@@ -273,7 +280,7 @@ header .logo {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+  background-color: #414246;
 }
 
 @media screen and (min-width: 768px) {
@@ -356,6 +363,7 @@ header .logo {
   width: 30%;
   height: 130px;
   transition: 1s;
+  opacity: 70%;
 }
 
 .Des-logo:hover {
