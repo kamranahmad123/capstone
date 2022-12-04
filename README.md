@@ -50,7 +50,7 @@
 
 > Link to deployed project (Demo and Vido Link).
 
-- [Live Demo Link](https://kamranahmad123.github.io/first-capstone/)
+- [Live Demo Link](https://kamranahmad123.github.io/capstone/)
 
 - [Video Link](https://www.loom.com/share/f309b3d2f74b43f3903366cec6ab1385)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
